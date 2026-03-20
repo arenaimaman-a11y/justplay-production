@@ -4,12 +4,12 @@
   "private": true,
 
   "engines": {
-    "node": "18.x"
+    "node": "24.x"
   },
 
-  "scripts": {
+    "scripts": {
     "dev": "nuxt",
-    "build": "nuxt build",
+    "build": "nuxt generate",
     "start": "nuxt start",
     "generate": "nuxt generate"
   },
