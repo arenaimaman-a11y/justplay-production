@@ -10,7 +10,9 @@ export default {
     'images': resolve(__dirname, './assets/images'),
     'style': resolve(__dirname, './assets/style')
   },
-
+  router: {
+  middleware: ['redirect']
+},
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
 
@@ -254,6 +256,7 @@ export default {
     useCookie: true,
   },
 
+  
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/axios
